@@ -3,6 +3,7 @@ const {resolve} = require('path');
 module.exports = {
     entry: {
         webworker: './src/webworker/index.ts',
+        sharedworker: './src/shared-worker/index.ts',
     },
     output: {
         path: resolve(__dirname, 'dist'),
